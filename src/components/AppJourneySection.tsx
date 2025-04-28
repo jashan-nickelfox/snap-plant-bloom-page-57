@@ -5,33 +5,27 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const screens = [
   {
     id: 1,
-    title: "Language Selection",
-    description: "Choose from multiple languages for a personalized experience",
-    image: "/screen-language.png"
+    title: "Camera Interface",
+    description: "Easily capture plants with our camera interface and get instant insights, identification, and detailed information to explore the natural world around you.",
+    image: "/identification.svg"
   },
   {
     id: 2,
-    title: "Simple Onboarding",
-    description: "Get started quickly with our intuitive onboarding process",
-    image: "/screen-onboarding.png"
+    title: "Explore Plants",
+    description: "Explore and identify plants effortlessly with our intuitive camera interface",
+    image: "/explore.svg"
   },
   {
     id: 3,
-    title: "Camera Interface",
-    description: "Easily capture plants with our camera interface",
-    image: "/screen-camera.png"
+    title: "Plant Guide",
+    description: "Access an instant plant guide with detailed insights and care tips",
+    image: "/guide.svg"
   },
   {
     id: 4,
-    title: "Plant Identification",
-    description: "Get instant plant identification with detailed information",
-    image: "/screen-identification.png"
-  },
-  {
-    id: 5,
     title: "My Plants Collection",
     description: "Build and manage your personal plant collection",
-    image: "/screen-collection.png"
+    image: "/collection.svg"
   }
 ];
 
