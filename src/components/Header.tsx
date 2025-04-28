@@ -26,7 +26,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
-            <img src="/logo.svg" alt="Snap Plant" className="h-10" />
+            <img src="/icon.png" alt="Snap Plant" className="h-10" />
             <span className="ml-2 text-xl font-heading font-bold text-plant-dark">Snap Plant</span>
           </div>
           
