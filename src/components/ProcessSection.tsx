@@ -81,7 +81,7 @@ const ProcessSection = () => {
           ))}
         </div>
         
-        <div className="mt-16 text-center reveal">
+        <div className="mt-12 text-center reveal">
           <p className="text-lg text-gray-700 mb-8">
             Start your plant identification journey today
           </p>

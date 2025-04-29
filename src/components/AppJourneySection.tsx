@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
@@ -68,10 +67,14 @@ const AppJourneySection = () => {
   };
   
   return (
-    <section id="app-journey" ref={sectionRef} className="bg-white py-20">
+    <section 
+      id="app-journey" 
+      ref={sectionRef} 
+      className="bg-gradient-to-b from-white via-plant/5 to-white py-20"
+    >
       <div className="section-container">
-        <h2 className="section-title reveal">Experience The App Journey</h2>
-        <p className="section-subtitle reveal">Follow the simple process of discovering and learning about plants</p>
+        <h2 className="section-title reveal text-4xl font-extrabold text-plant text-center">Experience The App Journey</h2>
+        <p className="section-subtitle reveal text-gray-600 text-center mt-4">Follow the simple process of discovering and learning about plants</p>
         
         <div className="relative mt-16 reveal">
           <div className="overflow-hidden">
@@ -83,16 +86,16 @@ const AppJourneySection = () => {
                 <div key={screen.id} className="min-w-full px-4">
                   <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
                     <div className="md:w-1/3">
-                      <h3 className="text-2xl font-bold mb-4">{screen.title}</h3>
-                      <p className="text-gray-700">{screen.description}</p>
+                      <h3 className="text-3xl font-extrabold text-plant mb-4">{screen.title}</h3>
+                      <p className="text-gray-600 leading-relaxed">{screen.description}</p>
                     </div>
                     <div className="md:w-1/3 flex justify-center">
                       <div className="relative w-60 md:w-72">
-                        <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-plant/10 to-plant-light/10 blur-lg"></div>
+                        <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-plant/20 to-plant-light/20 blur-2xl opacity-50"></div>
                         <img 
                           src={screen.image} 
                           alt={screen.title} 
-                          className="relative w-full h-auto rounded-3xl shadow-lg"
+                          className="relative w-full max-h-80 object-contain rounded-3xl "
                         />
                       </div>
                     </div>
@@ -124,8 +127,8 @@ const AppJourneySection = () => {
             <button
               key={index}
               onClick={() => goToSlide(index)}
-              className={`mx-1 h-2 w-8 rounded-full transition-all ${
-                index === activeIndex ? 'bg-plant' : 'bg-gray-300'
+              className={`mx-1 h-2 w-8 rounded-full transition-all duration-300 ${
+                index === activeIndex ? 'bg-plant scale-110' : 'bg-gray-300'
               }`}
               aria-label={`Go to slide ${index + 1}`}
             />
