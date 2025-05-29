@@ -22,7 +22,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <AppJourneySection />
-        <FeaturesSection />
+        {/* <FeaturesSection /> */}
         <ProcessSection />
         <TestimonialsSection />
         <CTASection />

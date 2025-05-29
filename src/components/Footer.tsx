@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div>
             <div className="flex items-center mb-4">
-              <img src="/icon.png" alt="Snap Plant" className="h-10 w-10" />
+              <img src="/icon1.png" alt="Snap Plant" className="h-10 w-10" />
               <span className="ml-3 text-xl font-bold">Snap Plant</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">

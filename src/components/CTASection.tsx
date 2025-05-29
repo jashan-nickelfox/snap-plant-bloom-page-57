@@ -52,7 +52,7 @@ const CTASection = () => {
     >
       <div className="section-container">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="reveal transition-all duration-700 ease-in-out">
+          <div className="reveal transition-all duration-700 ease-in-out mt-20">
             <h2 className="text-3xl md:text-4xl font-extrabold text-plant mb-6">
               Ready to Identify Plants?
             </h2>
@@ -60,7 +60,7 @@ const CTASection = () => {
               Download Snap Plant today and start your journey into the world of
               plants. Available now on the App Store.
             </p>
-            <div className="inline-block">
+            <div className="mt-6 flex justify-center md:justify-start">
               <a
                 href="https://apps.apple.com/us/app/snap-plant-identification/id6737281030"
                 target="_blank"
@@ -73,16 +73,6 @@ const CTASection = () => {
                   className="w-40 h-auto"
                 />
               </a>
-            </div>
-
-            <div className="border-t border-gray-200 pt-8">
-              <h3 className="text-2xl font-semibold text-plant mb-3">
-                Want a Similar App for Your Project?
-              </h3>
-              <p className="text-gray-600 mb-4">
-                We develop custom plant identification solutions tailored for
-                businesses and organizations.
-              </p>
             </div>
           </div>
 

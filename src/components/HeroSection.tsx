@@ -64,7 +64,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-plant/20 to-plant-light/20 blur-xl"></div>
             <div className="relative">
               <img
-                src="/dashboard.svg"
+                src="/dashboard-min.png"
                 alt="Snap Plant App Interface"
                 className="w-full h-auto drop-shadow-xl"
               />

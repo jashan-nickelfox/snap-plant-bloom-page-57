@@ -69,7 +69,7 @@ const ProcessSection = () => {
             <div 
               key={index} 
               className="process-step reveal"
-              style={{ transitionDelay: `${index * 100}ms` }}
+              style={{ transitionDelay: `${index * 1}ms` }}
             >
               <div className="process-step-number">{step.number}</div>
               <div className="flex items-center justify-center mb-6 h-16">

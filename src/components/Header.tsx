@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu } from 'lucide-react';
@@ -29,24 +28,24 @@ const Header = () => {
             <img src="/icon.png" alt="Snap Plant" className="h-10" />
             <span className="ml-2 text-xl font-heading font-bold text-plant-dark">Snap Plant</span>
           </div>
-          
+
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-700 hover:text-plant transition-colors">Features</a>
+            <a href="#app-journey" className="text-gray-700 hover:text-plant transition-colors">App Journey</a>
             <a href="#how-it-works" className="text-gray-700 hover:text-plant transition-colors">How It Works</a>
             <a href="#testimonials" className="text-gray-700 hover:text-plant transition-colors">Reviews</a>
             <a href="#download" className="btn-primary">Download Now</a>
           </nav>
-          
+
           <div className="md:hidden">
             <Button variant="ghost" size="sm" onClick={() => setMenuOpen(!menuOpen)} aria-label="Menu">
               <Menu className="h-6 w-6" />
             </Button>
           </div>
         </div>
-        
+
         {menuOpen && (
-          <div className="md:hidden pt-4 pb-3 space-y-3">
-            <a href="#features" className="block text-gray-700 hover:text-plant transition-colors">Features</a>
+          <div className="md:hidden bg-white shadow-md rounded-lg mt-2 px-4 py-4 space-y-3">
+            <a href="#app-journey" className="block text-gray-700 hover:text-plant transition-colors">App Journey</a>
             <a href="#how-it-works" className="block text-gray-700 hover:text-plant transition-colors">How It Works</a>
             <a href="#testimonials" className="block text-gray-700 hover:text-plant transition-colors">Reviews</a>
             <a href="#download" className="btn-primary w-full mt-3">Download Now</a>
